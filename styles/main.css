@@ -69,9 +69,6 @@ body {
 .container .arrows button :focus {
   outline: none;
 }
-.container .table {
-  width: 560px;
-}
 .container .table .row {
   display: flex;
   width: 100%;
