@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <form class="inputs" name="form">
+        <input type="number" name="rows" placeholder="Введите количество рядов поля">
+        <input type="number" name="columns" placeholder="Введите количество столбиков поля">
+        <button type="submit" class="submit">Подтвердить</button>
+    </form>
+
+    <div class="none con-js" name="container">
+        <div class="arrows">
+            <div class="box">
+                <button class="arrow-up"><i class="icon-up-circled"></i></button>
+                <button class="arrow-right"><i class="icon-right-circled"></i></button>
+                <button class="arrow-down"><i class="icon-down-circled"></i></button>
+                <button class="arrow-left"><i class="icon-left-circled"></i></button>
+            </div>
+        </div>
+        <div class="table">
+            <span class="sklad"></span>
+        </div>
+    </div>
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>

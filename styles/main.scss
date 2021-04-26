@@ -1,0 +1,102 @@
+@import "./icons/arrow-down.css";
+@import "./icons/arrow-left.css";
+@import "./icons/arrow-right.css";
+@import "./icons/arrow-up.css";
+
+body {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.inputs {
+    margin-top: 100px;
+
+    * {
+        width: 250px;
+    }
+}
+
+.none {
+    display: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+    .arrows {
+        width: 300px;
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        // align-items: center;
+
+        .box {
+            width: 220px;
+            height: 150px;
+            display: flex;
+            flex-flow: row wrap;
+
+            .arrow-up {
+                position: relative;
+                left: 85px;
+            }
+            .arrow-right {
+                position: relative;
+                left: 85px;
+                top: 50px;
+            }
+            .arrow-down {
+                position: relative;
+                left: -15px;
+                top: 100px;
+            }
+            .arrow-left {
+                position: relative;
+                left: -115px;
+                top: 50px;
+            }
+        }
+
+        .arrow-included {
+            background-color: red;
+        }
+
+        button {
+            background-color: yellow;
+            border: none;
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            font-size: 25px;
+            outline: none;
+
+            :focus {
+                outline: none;
+            }
+        }
+    }
+
+    .table {
+        width: 560px; 
+
+        .row {
+            display: flex;
+            width: 100%;
+            height: 56px;
+
+            .block {
+                width: 50px;
+                height: 50px;
+                border: 3px solid yellow;
+                background-color: rgb(79, 79, 216);
+
+                &:hover {
+                    background-color: yellow;
+                }
+            }
+        }
+    }
+}
+
